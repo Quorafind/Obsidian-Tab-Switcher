@@ -1,5 +1,5 @@
 # vscode
-.vscode 
+.vscode
 
 # Intellij
 *.iml
@@ -8,9 +8,9 @@
 # npm
 node_modules
 
-# Don't include the compiled main.js file in the repo.
+# Don't include the compiled tabSwitcherIndex.js file in the repo.
 # They should be uploaded to GitHub releases instead.
-main.js
+tabSwitcherIndex.js
 
 # Exclude sourcemaps
 *.map
@@ -20,3 +20,6 @@ data.json
 
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store
+
+# Exclude pnpm lock json
+pnpm-lock.yaml
