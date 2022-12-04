@@ -109,7 +109,7 @@ class TabSwitcherModal extends Modal  {
 					return pinyin.convertToPinyin(leaf.tabHeaderEl.innerText.toString(), '', true);
 				}}
 			],
-			sortFn: (a, b) => {
+			sortFn: (a: any, b: any) => {
 				return b.item.activeTime - a.item.activeTime;
 			}
 		};
